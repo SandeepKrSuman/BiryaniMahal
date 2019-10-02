@@ -1,0 +1,226 @@
+body {
+  background-color: black;
+}
+
+/* navbar styles */
+.navbar {
+  padding: 0 0 4.5rem;
+  text-align: center;
+}
+
+.nav-item {
+  padding: 0 0.625em;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+}
+
+i {
+  font-size: 0.75rem;
+}
+
+.logo {
+  width: 3.125em;
+  float: left;
+  margin: 0.3125em 0.625em 0.3125em 0.3125em;
+}
+
+/* first section */
+.section1 {
+  margin-top: 3.125em;
+  margin-bottom: 6.25em;
+}
+
+.bookbtn {
+  margin-top: 4.375em;
+  margin-right: 3.125em;
+}
+
+.phrase {
+  font-family: Shadows Into Light;
+  color: white;
+  font-size: 3.125em;
+}
+
+/* carousel styles */
+.slide-img {
+  border-radius: 6.875em;
+}
+
+.carousel-inner {
+  width: 34.9375em;
+  height: 23.125em;
+}
+
+.carsl {
+  width: 34.9375em;
+  height: 23.125em;
+}
+
+.phrasediv {
+  padding-left: 12.5em;
+  text-align: center;
+}
+
+/* separating two sections using <hr> */
+hr {
+  background-color: white;
+  height: 0.625em;
+  width: 9.375em;
+}
+
+/* About Us */
+.aboutus {
+  margin-top: 3.125em;
+  margin-bottom: 3.125em;
+}
+
+.aboutimgdiv {
+  margin: 3.125em 6.25em 3.125em 6.25em;
+}
+
+/* heading of each section through <h3> */
+h3 {
+  color: #eccd8f;
+  text-align: center;
+  font-family: Mansalva;
+}
+
+p {
+  color: white;
+  font-size: 1.25em;
+}
+
+/* Menu Section */
+.menusection {
+  margin-top: 3.125em;
+  margin-bottom: 3.125em;
+}
+
+h5 {
+  color: white;
+  font-family: Catamaran;
+}
+
+.dishnameleft {
+  text-align: right;
+  margin-top: 6.25em;
+}
+
+.dishnameright {
+  text-align: left;
+  margin-top: 9.375em;
+}
+
+.spclthali-img {
+  margin-left: 12.5em;
+}
+
+/* Events  section */
+.eventsection {
+  margin-top: 3.125em;
+  margin-bottom: 3.125em;
+}
+
+.carousel {
+  margin: 3.125em 12.5em 3.125em 12.5em;
+}
+
+/* ingredients section */
+.ingredients {
+  margin-top: 3.125em;
+  margin-bottom: 3.125em;
+}
+
+.ingrediv {
+  text-align: center;
+  margin: 3.125em 25em 3.125em 25em;
+}
+
+/* reservations section */
+.reservations {
+  margin-top: 3.125em;
+  background-image: url("images/reservations.jpg");
+  text-align: center;
+  height: 25em;
+}
+
+.btnresv {
+  margin-top: 9.375em;
+  margin-left: 3.125em;
+  margin-right: 3.125em;
+}
+
+/* footer section */
+.footersection {
+  background-color: #979797;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 1.875em;
+}
+
+.footertext {
+  color: black;
+  font-size: 0.9375em;
+}
+
+.btndwn {
+  margin-right: 0.625em;
+  margin-left: 0.625em;
+}
+
+.footerdiv {
+  margin-top: 3.125em;
+}
+
+.cntdiv {
+  margin-top: 3.125em;
+}
+
+.totop-img {
+  width: 3.125em;
+  height: 3.125em;
+}
+
+/* Form animation */
+.formbody {
+  background-color: #6bc5d2;
+  text-align: center;
+}
+
+.formdiv {
+  text-align: center;
+  background-color: #fa5477;
+  width: 50em;
+  height: 31.25em;
+  margin-left: 21.875em;
+  margin-top: 9.375em;
+}
+
+.frm {
+  padding-top: 0.625em;
+}
+
+.msg1 {
+  color: #ff5858;
+  font-family: Handlee;
+}
+
+.msgdiv1 {
+  text-align: center;
+  margin-top: 18.75em;
+}
+
+/* order online */
+.inputqty {
+  width: 1.875em;
+  height: 1.25em;
+}
+
+.delimg {
+  width: 15.625em;
+  height: 15.625em;
+}
