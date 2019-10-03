@@ -187,13 +187,13 @@ h5 {
 
 /* Form animation */
 .formbody {
-  background-color: #6bc5d2;
+  background-color: #323643;
   text-align: center;
 }
 
 .formdiv {
   text-align: center;
-  background-color: #fa5477;
+  background-color: #ed9153;
   width: 50em;
   height: 31.25em;
   margin-left: 21.875em;
@@ -205,7 +205,7 @@ h5 {
 }
 
 .msg1 {
-  color: #ff5858;
+  color: #ed9153;
   font-family: Handlee;
 }
 
