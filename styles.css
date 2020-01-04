@@ -2,158 +2,167 @@ body {
   background-color: black;
 }
 
-/* navbar styles */
-.navbar {
-  padding: 0 0 4.5rem;
+section {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+hr {
+  background-color: #fff;
+  height: 0.1rem;
+  width: 10rem;
+}
+
+h3 {
+  color: #eccd8f;
   text-align: center;
+  font-family: "Mansalva";
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+h2 {
+  margin-top: 25%;
+}
+
+.p-decor {
+  color: #fff;
+  font-size: 1.25rem;
+  margin: 5%;
+  line-height: 2;
+}
+
+#section-home {
+  margin-top: 0;
+}
+
+/* Navbar */
+.navbar {
+  text-align: center;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+}
+
+.brandlogo {
+  float: left;
+  width: 5rem;
+  margin: 0.625rem 1.25rem 0.625rem 1.25rem;
+}
+
+.brand-title {
+  font-size: 1.563rem;
+  font-weight: bold;
+  margin-top: 0.9rem;
+}
+
+.brand-phrase {
+  font-size: 0.938rem;
+  font-style: italic;
+  margin-left: 8.5rem;
 }
 
 .nav-item {
-  padding: 0 0.625em;
+  padding: 0 0.625rem;
 }
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: Montserrat;
+  font-family: "Montserrat";
 }
 
-i {
-  font-size: 0.75rem;
-}
-
-.logo {
-  width: 3.125em;
-  float: left;
-  margin: 0.3125em 0.625em 0.3125em 0.3125em;
-}
-
-/* first section */
-.section1 {
-  margin-top: 3.125em;
-  margin-bottom: 6.25em;
-}
-
-.bookbtn {
-  margin-top: 4.375em;
-  margin-right: 3.125em;
+/* Home Phrase */
+.phrase-div {
+  text-align: center;
+  color: #fff;
 }
 
 .phrase {
-  font-family: Shadows Into Light;
-  color: white;
-  font-size: 3.125em;
+  font-family: "Shadows Into Light";
+  font-size: 3.8rem;
+  line-height: 1.5;
 }
 
-/* carousel styles */
-.slide-img {
-  border-radius: 6.875em;
+.bookbtn {
+  margin: 4rem 3rem;
+}
+
+/* Home Carousel */
+.carousel-div {
+  text-align: center;
 }
 
 .carousel-inner {
-  width: 34.9375em;
-  height: 23.125em;
+  width: 90%;
+  margin: 0 auto 0 auto;
 }
 
-.carsl {
-  width: 34.9375em;
-  height: 23.125em;
+.slide-img {
+  border-radius: 25%;
 }
 
-.phrasediv {
-  padding-left: 12.5em;
+/* About Us Section */
+.about-detail-div {
   text-align: center;
 }
 
-/* separating two sections using <hr> */
-hr {
-  background-color: white;
-  height: 0.625em;
-  width: 9.375em;
-}
-
-/* About Us */
-.aboutus {
-  margin-top: 3.125em;
-  margin-bottom: 3.125em;
-}
-
-.aboutimgdiv {
-  margin: 3.125em 6.25em 3.125em 6.25em;
-}
-
-/* heading of each section through <h3> */
-h3 {
-  color: #eccd8f;
+.about-img-div {
   text-align: center;
-  font-family: Mansalva;
 }
 
-p {
-  color: white;
-  font-size: 1.25em;
+.about-img {
+  width: 90%;
+  margin: 5%;
 }
 
 /* Menu Section */
-.menusection {
-  margin-top: 3.125em;
-  margin-bottom: 3.125em;
+.card {
+  background-color: #000;
+  width: 50%;
+  margin: 5rem auto 5rem auto;
 }
 
-h5 {
-  color: white;
-  font-family: Catamaran;
-}
-
-.dishnameleft {
-  text-align: right;
-  margin-top: 6.25em;
-}
-
-.dishnameright {
-  text-align: left;
-  margin-top: 9.375em;
-}
-
-.spclthali-img {
-  margin-left: 12.5em;
-}
-
-/* Events  section */
-.eventsection {
-  margin-top: 3.125em;
-  margin-bottom: 3.125em;
-}
-
-.carousel {
-  margin: 3.125em 12.5em 3.125em 12.5em;
-}
-
-/* ingredients section */
-.ingredients {
-  margin-top: 3.125em;
-  margin-bottom: 3.125em;
-}
-
-.ingrediv {
+.dish-name-div {
   text-align: center;
-  margin: 3.125em 25em 3.125em 25em;
 }
 
-/* reservations section */
-.reservations {
-  margin-top: 3.125em;
+@media (max-width: 900px) {
+  .card {
+    width: 100%;
+  }
+}
+
+/* Events Section */
+.ingradient-div {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+
+.ingredient-img {
+  width: 100%;
+}
+
+/* Reservations Section */
+#reservations {
+  margin-bottom: 0;
+}
+
+.reservations-div {
   background-image: url("images/reservations.jpg");
   text-align: center;
-  height: 25em;
+  height: 25rem;
+}
+
+.button-div {
+  display: inline-block;
+  margin: 8rem auto 0 auto;
 }
 
 .btnresv {
-  margin-top: 9.375em;
-  margin-left: 3.125em;
-  margin-right: 3.125em;
+  margin: 2rem;
 }
 
-/* footer section */
+/* Footer Section */
 .footersection {
   background-color: #979797;
   color: black;
@@ -185,7 +194,7 @@ h5 {
   height: 3.125em;
 }
 
-/* Form animation */
+/* Form animations */
 .formbody {
   background-color: #323643;
   text-align: center;
@@ -194,10 +203,13 @@ h5 {
 .formdiv {
   text-align: center;
   background-color: #ed9153;
-  width: 50em;
-  height: 31.25em;
-  margin-left: 21.875em;
-  margin-top: 9.375em;
+  width: 65%;
+  height: 31rem;
+  margin: 10rem auto 0 auto;
+}
+
+.text-area {
+  width: 60%;
 }
 
 .frm {
@@ -211,16 +223,15 @@ h5 {
 
 .msgdiv1 {
   text-align: center;
-  margin-top: 18.75em;
+  margin: 25%;
 }
 
 /* order online */
 .inputqty {
-  width: 1.875em;
-  height: 1.25em;
+  width: 2rem;
+  height: 1.25rem;
 }
 
 .delimg {
-  width: 15.625em;
-  height: 15.625em;
+  width: 30%;
 }
