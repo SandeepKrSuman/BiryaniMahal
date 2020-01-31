@@ -194,6 +194,16 @@ h2 {
   height: 3.125em;
 }
 
+.developerDetail{
+  margin-top: 30px;
+  font-family: "Italianno";
+  font-size: 1.5rem;
+}
+
+.devlink{
+  color: #fff;
+}
+
 /* Form animations */
 .formbody {
   background-color: #323643;
