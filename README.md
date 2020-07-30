@@ -1,5 +1,7 @@
 # BiryaniMahal
-Designing a website for Biryani Mahal (chain of Biryani Shop in Kolkata) which can help increasing their sale.
+Designing a website for Biryani Mahal (chain of Biryani Shop in Kolkata) which can help increasing their sale. 
+
+![](images/hpg.png)
 
 This is one of my initial projects which I am making while learning web developement.
 
