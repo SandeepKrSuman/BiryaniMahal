@@ -1,4 +1,4 @@
-# BiryaniMahal
+# [Biryani Mahal](https://sandeepkrsuman.github.io/BiryaniMahal/)
 Designing a website for Biryani Mahal (chain of Biryani Shop in Kolkata) which can help increasing their sale. 
 
 ![](images/hpg.png)
